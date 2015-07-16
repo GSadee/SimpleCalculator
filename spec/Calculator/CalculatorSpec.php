@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\Calculator;
+namespace spec\Calculator\Calculator;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
@@ -12,12 +12,12 @@ class CalculatorSpec extends ObjectBehavior
 {
     function it_is_initializable()
     {
-        $this->shouldHaveType('Calculator\Calculator');
+        $this->shouldHaveType('Calculator\Calculator\Calculator');
     }
 
     function it_implements_calculator_interface()
     {
-        $this->shouldImplement('Calculator\CalculatorInterface');
+        $this->shouldImplement('Calculator\Calculator\CalculatorInterface');
     }
 
     function it_adds_two_numbers()

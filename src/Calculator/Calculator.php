@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Calculator;
+namespace Calculator\Calculator;
 
 /**
  * @author Grzegorz Sadowski <grzegorz.sadowski@lakion.com>
