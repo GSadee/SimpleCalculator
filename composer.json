@@ -1,0 +1,21 @@
+{
+  "name": "gsadee/simplecalculator",
+  "authors": [
+    {
+      "name": "Grzegorz Sadowski",
+      "email": "grzegorz.sadowski@lakion.com"
+    }
+  ],
+  "require-dev": {
+      "phpspec/phpspec": "~2.0",
+      "phpspec/nyan-formatters": "~1.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "Calculator\\": "src/"
+    }
+  }
+}

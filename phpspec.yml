@@ -1,0 +1,5 @@
+suites:
+    app: { namespace: Calculator, psr4_prefix: Calculator, src_path: src/, spec_path: . }
+
+extensions:
+    - PhpSpec\NyanFormattersExtension\Extension
